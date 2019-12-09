@@ -63,17 +63,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="stockMerchant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stockMerchant" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -126,15 +116,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575753640960</updated>
-      <workItem from="1575753642486" duration="5034000" />
+      <workItem from="1575753642486" duration="5956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5034000" />
+    <option name="totallyTimeSpent" value="5956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="960" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24920128" />
