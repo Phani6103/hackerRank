@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Left Rotation
+        </title>
+        <meta charset="UTF-8">
+        <script>
+            testAr = [1, 2, 3, 4, 5];
+            d = 3;
+            function doRotation(a, d) {
+                let givenArray = a;
+                for (let i = 0; i <= d-1; i++) {
+                    givenArray.push(givenArray.shift());
+                }
+                document.getElementById('finalArray').innerText = givenArray.toLocaleString();
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <button onclick="doRotation(testAr, d)"> Rotate </button>
+            <p id="finalArray"></p>
+        </div>
+    </body>
+</html>
