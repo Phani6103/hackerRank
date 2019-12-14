@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        New Year Chaos
+    </title>
+    <meta charset="UTF-8">
+    <script>
+        let q = [5, 1, 2, 3, 7, 8, 6, 4];
+        let q1 = [1, 2, 5, 3, 4, 7, 8, 6];
+        let q9 = [];
+        let q0 = [2, 1, 5, 3, 4];
+        function doRotation(q) {
+            let counter = 0;
+            for (let i = 0; i <= q.length-1; i++) {
+                let currentCounter = 0;
+                for (let j = i+1; j <= q.length-1; j++) {
+                    if (q[j] < q[i]) {
+                        counter++;
+                        currentCounter++;
+                    }
+                    if (currentCounter > 2) {
+                        counter = 'Too chaotic';
+                        break;
+                    }
+                }
+                if (currentCounter > 2) {
+                    counter = 'Too chaotic';
+                    break;
+                }
+            }
+            console.log(counter);
+        }
+    </script>
+</head>
+<body>
+<div>
+    <button onclick="doRotation(q0)"> Rotate </button>
+    <p id="counter"></p>
+</div>
+</body>
+</html>
